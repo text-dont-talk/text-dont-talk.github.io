@@ -1,0 +1,31 @@
+<div class="headline-wrapper">
+    <app-headline [headline]="'TEXT, DON\'T TALK'" [subtitle]="'End Voice Messages'"></app-headline>
+</div>
+
+
+<div class="centered">
+    <div class="highlight-div-wrapper">
+        <img class="background-highlight-div-left" src="assets/PYS-landing-wave.svg"/>
+        <!-- <img class="background-highlight-div-bottom-right" src="assets/PYS-landing-hole.svg"/> -->
+    <div class="hightlight-div">
+        <app-text-with-image [headline]="'Keep It Simple and Respect Time'"
+                                        imagePath="assets/duration.png"
+                                        headlineImagePath="assets/voice.png"
+                                        [quote]="'Not everyone has as much time as you. Just send a text and come to the point. Time is money! - Phil H.'"
+                                        [text]="'Text is quick, to the point, and efficient. Voice messages? Not so much.\nReading a short text takes seconds. Listening to a rambling voice message? Minutes.'"
+                                        [orientationLeft]=false
+        ></app-text-with-image>
+        </div>
+        <br/>
+        <div class="hightlight-div">
+        <app-text-with-image [headline]="'Do You Care About Others? Send a Text'"
+                                        imagePath="assets/situations.png"
+                                        headlineImagePath="assets/train.png"
+                                        [quote]="'Do you really think i can listen to this shit while working with clients? I will just ignore your voice message and wait for you to send a text! - Toby S.'"
+                                        [text]="'Hiking in a group, having dinner with your loved ones or riding a noisy train - just a few examples where a quick text is way easier to respond to than a voice message. Get some manners!'"
+                                        [orientationLeft]=true
+        ></app-text-with-image>
+        </div>
+        <br/>
+    </div>
+</div>

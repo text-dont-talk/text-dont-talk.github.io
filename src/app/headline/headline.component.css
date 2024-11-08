@@ -1,0 +1,31 @@
+.headline-wrapper-div {
+    display: inline-block;
+    color: white;
+    text-shadow: 0px 5px 10px #ffb703;
+    
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .headline-text-adjust {
+    margin: 0;
+    text-align: center;
+  }
+  
+
+.headline2-text-adjust {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0px 2px 5px #ffb703;
+}
+
+@media only screen and (max-width: 1100px) {
+  .headline-text-adjust {
+    font-size: 45px;
+  }
+  .headline2-text-adjust {
+    font-size: 30px;
+  }
+}
+
